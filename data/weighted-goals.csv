@@ -1,22 +1,22 @@
 text,weight
-Goal A,0
+Goal A,1
 Goal B,1
 Goal C,1
-Goal D,1
-Goal E,1
+Goal D,100
+Goal E,100
 Goal F,1
 Goal G,1
 Goal H,1
-Goal I,1
+Goal I,100
 Goal J,1
 Goal K,1
 Goal L,1
-Goal M,1
-Goal N,1
+Goal M,100
+Goal N,100
 Goal O,1
 Goal P,1
 Goal Q,1
-Goal R,1
+Goal R,0.01
 Goal S,1
 Goal T,1
 Goal U,1
@@ -24,4 +24,4 @@ Goal V,1
 Goal W,1
 Goal X,1
 Goal Y,1
-Goal Z,1
+Goal Z,100

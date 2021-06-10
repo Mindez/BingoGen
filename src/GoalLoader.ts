@@ -24,7 +24,7 @@ export class GoalLoader {
 
   public static preprocessWeights (rawGoals: WeightedGoalRaw[]): WeightedGoal[] {
     return rawGoals.map(goal => {
-      let weight = parseInt(goal.weight, 10)
+      let weight = parseFloat(goal.weight)
       if (weight <= 0 || isNaN(weight)) {
         console.log(`WARN: ${goal.text} has an invalid weight. Defaulting to 1.`)
         weight = 1
