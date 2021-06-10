@@ -3,6 +3,7 @@ A utility to take weighted bingo goals and randomly generate a set of 25 goals f
 
 ## Getting Started
 
+- Make sure you have NodeJS installed at v8.x or later (recommended: nvm)
 - Install dependencies with `npm i`
 - Edit the goals and weightings in `./data/weighted-goals.csv`
 - Generate a BingoSync compatible JSON object with `npm start`
