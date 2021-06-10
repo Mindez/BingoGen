@@ -1,0 +1,29 @@
+{
+  "name": "sonic-bingo-gen",
+  "version": "1.0.0",
+  "description": "Generate weighted goals for Sonic 3: AIR bingo cards",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx ts-node ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindez/SonicBingoGen.git"
+  },
+  "author": "Daniel Lyon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mindez/SonicBingoGen/issues"
+  },
+  "homepage": "https://github.com/Mindez/SonicBingoGen#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "v18": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
