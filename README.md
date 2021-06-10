@@ -11,7 +11,7 @@ A utility to take weighted bingo goals and randomly generate a set of 25 goals f
 
 ### Weightings
 
-The weight field determines how likely a goal is to appear. Weights are relative - ie. an item with a weight of 20 is twice as likely to appear on a card as an item with a weight of 10. Weights can be any positive number, including decimals. If an invalid or zero weight is provided, it will default to a weight of 1.
+The weight field determines how likely a goal is to appear. Weights are relative - ie. an item with a weight of 20 is twice as likely to appear on a card as an item with a weight of 10. Weights can be any positive integer. If an invalid or zero weight is provided, it will default to a weight of 1.
 
 ## Compatibility
 
